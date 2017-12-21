@@ -36,5 +36,5 @@ With the four models we used, and then using Bagging, our results ere improved. 
 The results can be further improved by using more models in the first stage to capture more details in the data. The highest Logloss obtained in this problem according to Kaggle is **0.38**.
 
 ---------------------------
-Models refernece that was referenced: [Model_refernece Link](https://github.com/ahara/kaggle_otto/tree/master/otto/model)<br>
+Models structured referenced from: [Model_refernece Link](https://github.com/ahara/kaggle_otto/tree/master/otto/model)<br>
 Please go through the wiki for detailed instructions of the project. 
