@@ -23,7 +23,7 @@ A table showing minimum Logloss is obtained after trying different algorithms.
 | XG boost       | 0.531245       | 0.78
 | Random forest  | 0.501333       | 0.83
 
-It can be observed from the table that random forests produce better results than any other model. But we still wanted to increase the accuracy and reduce the logloss. For that, Ensemble Learning approach was used.
+It can be observed from the table that random forests produce better results than any other model. But we still wanted to increase the accuracy and reduce the logloss. For that, Ensemble Learning approach was used. 
 
 ---------------------------
 ## Ensemble Learning approach to try and combine the models
@@ -36,5 +36,5 @@ With the four models we used, and then using Bagging, our results ere improved. 
 The results can be further improved by using more models in the first stage to capture more details in the data. The highest Logloss obtained in this problem according to Kaggle is **0.38**.
 
 ---------------------------
-
+Models refernece that was referenced: [Model_refernece Link](https://github.com/ahara/kaggle_otto/tree/master/otto/model)
 Please go through the wiki for detailed instructions of the project. 
