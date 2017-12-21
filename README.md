@@ -37,4 +37,4 @@ The results can be further improved by using more models in the first stage to c
 
 ---------------------------
 Models structure was referred from: [Model_refernece Link](https://github.com/ahara/kaggle_otto/tree/master/otto/model)<br>
-Please go through the wiki[https://github.com/Jayu8/ML_GRAD_PROJECT/wiki] for detailed instructions of the project. 
+Please go through the [wiki](https://github.com/Jayu8/ML_GRAD_PROJECT/wiki) for detailed instructions of the project. 
