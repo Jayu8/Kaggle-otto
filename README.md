@@ -31,8 +31,8 @@ It can be observed from the table that random forests produce better results tha
 > The method of combining the predictions depends on the choice of models used for training. If the models are homogeneous, that is all the trained models are using the same algorithm with different parameters of course, for example Decision Tree, then boosting can be used. These are the most widely used techniques. If the trainers are heterogeneous, that is a combination of algorithms is used for training, example DT, SVM, Neural Network, etc, then something called bagging can be used. In bagging (stands for Bootstrap Aggregating), on top of all the predictions obtained after training the model on individual models, another model is trained which ultimately decides the final prediction.
 Here's is an excellent link to understanding more about [ensemble learning](https://mlwave.com/kaggle-ensembling-guide/) and why it works.
 
-> What we are using here is bagging where weighted average of SVM, Random Forest, xgboost and Nueral Network predictions was used to make final stage predictions. The model with highest individual accuracy will get more weightage than the other models. There is no limit on the number of models to be used in first stage. 
-With the four models we used, and then using Bagging, our results ere improved. The new LogLoss was **0.438509** with the new accuracy was **0.88**. 
+What we are using here is bagging where weighted average of SVM, Random Forest, xgboost and Nueral Network predictions was used to make final stage predictions. The model with highest individual accuracy will get more weightage than the other models. There is no limit on the number of models to be used in first stage. 
+With the four models we used, and then using Bagging, our results were improved. The new LogLoss was **0.438509** with the new accuracy was **0.88**. 
 The results can be further improved by using more models in the first stage to capture more details in the data. The highest Logloss obtained in this problem according to Kaggle is **0.38**.
 
 ---------------------------
